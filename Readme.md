@@ -3,10 +3,6 @@ This repository contains the codes I wrote for the JLTi CodeJam which is a progr
 
 # Season 7 - Food as a Serivce (FaaS)
 
-Official question can be found [here](https://gopalcdas.wordpress.com/2017/08/05/faas/).   
-Official solution can be found [here](https://gopalcdas.wordpress.com/2017/09/16/solution-faas/).  
-My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_FaaS/Program.cs).
-
 Threatened by the JLTi Weight Loss Competition where the participants are lining up in front of Salad shops, and the likes of me, who have entirely given up lunch (hopefully I can continue forever), food court shops who are selling oily, low-fibre and various other kinds of unhealthy food have come up with a novel idea.
 
 Inspired from the software world, and more importantly, to attract the software people who sit in their chairs for long hours and are the primary victims of eating these junk, those food shops have chosen a name for this scheme – Food as a Service (FaaS), borrowed from the likes of SaaS, PaaS, IaaS – whatever that means, if that means anything at all.
@@ -42,3 +38,13 @@ You subscribe for one week (first 5 days) and pay individually for the last 2 da
 Here, a monthly subscription and S$ 6 for the last day would be the best deal for you.
 
 Task: Given lunch calendar for some days (it can be 3 days, 10 days, 121 days or any number of days) as input, as explained above, I am planning to write a program that would output me the best price. Well, if I can find the best price, I also know what subscription plans etc. are. However, put that aside. Let’s find the best price, as shown and explained above.
+
+Official question can be found [here](https://gopalcdas.wordpress.com/2017/08/05/faas/).   
+Official solution can be found [here](https://gopalcdas.wordpress.com/2017/09/16/solution-faas/).  
+My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_FaaS/Program.cs).  
+Console Screenshot:
+
+<p align="center"> 
+  <img src="https://github.com/woo-chia-wei/jlti-code-jam/blob/master/Public/images/faas_01.png" 
+       width="70%" height="70%">
+</p>
