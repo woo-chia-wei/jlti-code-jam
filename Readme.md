@@ -41,10 +41,9 @@ Task: Given lunch calendar for some days (it can be 3 days, 10 days, 121 days or
 
 Official question can be found [here](https://gopalcdas.wordpress.com/2017/08/05/faas/).   
 Official solution can be found [here](https://gopalcdas.wordpress.com/2017/09/16/solution-faas/).  
-My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_FaaS/Program.cs).  
-Console Screenshot:
+My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_FaaS/Program.cs) with below screenshot:
 
 <p align="center"> 
   <img src="https://github.com/woo-chia-wei/jlti-code-jam/blob/master/Public/images/faas_01.png" 
-       width="70%" height="70%">
+       width="45%" height="45%">
 </p>
