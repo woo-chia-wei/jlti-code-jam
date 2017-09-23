@@ -1,7 +1,7 @@
 # About
 This repository contains the codes I wrote for the JLTi CodeJam which is a programming contest open to all JLTi staffs.
 
-# Season 7 - Food as a Serivce (FaaS)
+# Season 6 - Food as a Serivce (FaaS)
 
 Threatened by the JLTi Weight Loss Competition where the participants are lining up in front of Salad shops, and the likes of me, who have entirely given up lunch (hopefully I can continue forever), food court shops who are selling oily, low-fibre and various other kinds of unhealthy food have come up with a novel idea.
 
@@ -41,9 +41,73 @@ Task: Given lunch calendar for some days (it can be 3 days, 10 days, 121 days or
 
 Official question can be found [here](https://gopalcdas.wordpress.com/2017/08/05/faas/).   
 Official solution can be found [here](https://gopalcdas.wordpress.com/2017/09/16/solution-faas/).  
-My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_FaaS/Program.cs) with below screenshot:
+My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_06_FaaS/Program.cs) with below screenshot:
 
 <p align="center"> 
   <img src="https://github.com/woo-chia-wei/jlti-code-jam/blob/master/Public/images/faas_01.png" 
+       width="45%" height="45%">
+</p>
+
+# Season 7 - Team Lunch
+
+Since our JLTi Mumbai colleagues started vising our Singapore office, we are having more team/project lunches. Usually, a number of them come together, and after a short while they also leave together. It is only few days before they leave that we start organizing team lunches. Suppose, there are three colleagues belonging to three different teams, then there would be three team lunches, one for each team.
+
+However, not all members work for an exclusive team. For example, I create an impression as if I work for more than one team, and due to the good grace of those teams, I also get invited in their team lunches.
+
+However, due to the rush of deliverables, that is the norm here, the team lunches are squeezed in the last few days, and at times, multiple team lunches fall on the same day, typically on the last day.
+
+That is all fine and good for most. However, I have a big problem. If two team lunches fall on the same day, and I belong to both, I miss one for obvious reason. I skip lunch does not necessarily mean I skip free lunches.
+
+Hence, I decided to write a small program that will take the team composition in certain way and output the minimum days required to schedule the lunches so that people working on multiple teams don’t miss out any.
+
+Yes, I am not the only person but there are some other colleagues who also work across more than one team. Let us also assume that, for our 7 or 8 teams, it might be easy to calculate it manually. But when the number of team exceeds, say 100, then a program is a must.
+
+**Input**:
+
+1 2
+
+**Output**: 2
+
+Explanation:
+
+Input 1 2 (1 and 2 separated by a space) means there are one or more members who belong to both team 1 and team 2.
+
+Output 2 means, at least 2 days are required to arrange lunches for the teams. On day 1, one of the two teams can go for lunch. On the second day, the other can go.
+
+How many teams are there? Well, there are at least 2. There can be more, but that is irrelevant. Suppose there are 4 more teams – team 3, team 4, team 5 and team 6, they can go either on first day or on second day. This is because, no member working in those 4 teams work for a second team. After all, the input says, only team 1 and team 2 have some common members.
+
+**Input**:
+
+1 2
+
+2 3
+
+**Output**: 2
+
+We have some members common to team 1 and team 2. And there are some members, who are common to team 2 and team 3, as shown in the second line.
+
+Each line in the input would indicate the presence of common members between two teams, where the two team numbers are separated by a space. There would be at least one line of input, meaning somebody would run this program only if there exist at least one member working for more than one team.
+
+For the above input, we would still require at least two days to avoid any conflict. On one day team 1 and team 3 can go. Team 2 must go on a separate day.
+
+**Input**:
+
+1 2
+
+2 3
+
+1 3
+
+**Output**: 3
+
+Now we need 3 separate days. Team 1 cannot go on the same day as team 2 or team 3. This is because team 1 has members working for both team 2 and team 3. Similarly, team 2 cannot go for lunch on the same day as team 3 as they have common members. Hence, team 1, team 2 and team 3 – all need exclusive lunch days.
+
+Task: Given a list of team pairs (like 1 2 is a team pair, as shown in input) sharing common members, we need to write a program, that would output the minimum number of days required to set aside for team lunches, so that nobody who work across multiple teams misses his/her share of team lunches.
+
+Official question can be found [here](https://gopalcdas.wordpress.com/2017/09/09/team-lunch/).   
+My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_Team_Lunch/Program.cs) with below screenshot:
+
+<p align="center"> 
+  <img src="https://github.com/woo-chia-wei/jlti-code-jam/blob/master/Public/images/team_lunch_01.png" 
        width="45%" height="45%">
 </p>
