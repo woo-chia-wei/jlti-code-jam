@@ -1,5 +1,7 @@
 # About
-This repository contains the codes I wrote for the JLTi CodeJam which is a programming contest open to all JLTi staffs.
+JLTi CodeJam is a programming contest organized by Gopal Das for all the staffs in JLTi (Singapore & India). This repository consists both official questions, solutions and also my personal solutions.
+
+Please refer to [https://gopalcdas.wordpress.com/category/jlti-code-jam/](https://gopalcdas.wordpress.com/category/jlti-code-jam/) for official site.
 
 # Season 6 - Food as a Serivce (FaaS)
 
@@ -37,7 +39,7 @@ You subscribe for one week (first 5 days) and pay individually for the last 2 da
 
 Here, a monthly subscription and S$ 6 for the last day would be the best deal for you.
 
-Task: Given lunch calendar for some days (it can be 3 days, 10 days, 121 days or any number of days) as input, as explained above, I am planning to write a program that would output me the best price. Well, if I can find the best price, I also know what subscription plans etc. are. However, put that aside. Let’s find the best price, as shown and explained above.
+**Task**: Given lunch calendar for some days (it can be 3 days, 10 days, 121 days or any number of days) as input, as explained above, I am planning to write a program that would output me the best price. Well, if I can find the best price, I also know what subscription plans etc. are. However, put that aside. Let’s find the best price, as shown and explained above.
 
 Official question can be found [here](https://gopalcdas.wordpress.com/2017/08/05/faas/).   
 Official solution can be found [here](https://gopalcdas.wordpress.com/2017/09/16/solution-faas/).  
@@ -68,7 +70,7 @@ Yes, I am not the only person but there are some other colleagues who also work 
 
 **Output**: 2
 
-Explanation:
+**Explanation**:
 
 Input 1 2 (1 and 2 separated by a space) means there are one or more members who belong to both team 1 and team 2.
 
@@ -102,7 +104,7 @@ For the above input, we would still require at least two days to avoid any confl
 
 Now we need 3 separate days. Team 1 cannot go on the same day as team 2 or team 3. This is because team 1 has members working for both team 2 and team 3. Similarly, team 2 cannot go for lunch on the same day as team 3 as they have common members. Hence, team 1, team 2 and team 3 – all need exclusive lunch days.
 
-Task: Given a list of team pairs (like 1 2 is a team pair, as shown in input) sharing common members, we need to write a program, that would output the minimum number of days required to set aside for team lunches, so that nobody who work across multiple teams misses his/her share of team lunches.
+**Task**: Given a list of team pairs (like 1 2 is a team pair, as shown in input) sharing common members, we need to write a program, that would output the minimum number of days required to set aside for team lunches, so that nobody who work across multiple teams misses his/her share of team lunches.
 
 Official question can be found [here](https://gopalcdas.wordpress.com/2017/09/09/team-lunch/).   
 My solution can be found [here](https://github.com/woo-chia-wei/jlti-code-jam/blob/master/CodeJam_07_Team_Lunch/Program.cs) with below screenshot:
